@@ -103,7 +103,7 @@ def convert_shape(types, ress, keep_download=False, format="binary"):
 
 if __name__ == "__main__":
     types = {
-        "physical": ["coastline", "lakes", "rivers_lake_centerlines"],
+        "physical": ["coastline", "lakes", "land", "rivers_lake_centerlines"],
         "cultural": ["admin_0_countries", "admin_1_states_provinces"],
     }
     ress = [110, 50, 10]
